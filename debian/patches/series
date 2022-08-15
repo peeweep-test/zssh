@@ -1,0 +1,8 @@
+0001-Remove-build-instruction-about-lrzsz.patch
+0002-Install-files-into-under-DESTDIR.patch
+0003-Do-not-symlink-zssh-to-ztelnet.patch
+0004-Use-GNU-openpty-library-for-pty.h.patch
+0005-Do-not-call-strip-in-build-process.patch
+0006-replace-CPPFunction-call-with-rl_completion_func_t.patch
+0007-Fix-typo-in-man-page-zssh.1.patch
+0008-Strip-build-date-from-version-string-to-enable-repro.patch

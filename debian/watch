@@ -1,0 +1,4 @@
+version=3
+opts=dversionmangle=s/\.debian\.\d+$// \
+http://zssh.sourceforge.net/ .*/zssh-(.*)\.tgz
+#http://sf.net/zssh/zssh-(.*)\.tgz
