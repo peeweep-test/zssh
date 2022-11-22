@@ -4,14 +4,5 @@ pullrequest_check_build:
         source_project: deepin:test:SRC
         source_package: zssh
         target_project: deepin:test:CI
-    - configure_repositories:
-        project: deepin:test:CI
-        repositories:
-          - name: Arch
-            paths:
-              - target_project: deepin:test:SRC
-                target_repository: Arch_Community
-            architectures:
-              - x86_64
   filters:
     event: pull_request
